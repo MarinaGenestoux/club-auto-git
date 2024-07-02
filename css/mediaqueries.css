@@ -1,0 +1,73 @@
+/* RESPONSIVE MOBILE */
+
+@media screen and (max-width: 724px){
+    .top-banner {
+        padding: 0px;
+        margin: 0px;
+        display: none;
+    }
+    
+    .section2 {
+        display: grid;
+    }
+
+    .section2 .section2-bloc1 {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .section2-bloc1 .image1-section,
+    .section2-bloc2 .image2-section {
+        margin: 0;
+    }
+
+    .section2 .section2-bloc2 {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .section3 {
+        display: grid;
+        width: auto;
+        display: grid;
+        padding: 0;
+    }
+    .section3 #yellow-card,
+    .section3 #red-card {
+        padding: 70px;
+    }
+    
+    .section4 .section4-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section5 .section-5-infos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section6 {
+        padding: 40 0 40 0;
+    }
+    
+    .yellow-box{
+        width: auto;
+        padding: 80px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .navbar {
+        background: none;
+    }
+    .navbar .navlinks {
+        display: none;
+    }
+    
+}

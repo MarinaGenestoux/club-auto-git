@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Auto</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/mediaqueries.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Vers la page d'accueil du site 'Club Auto'">Accueil</a></li>
+                <li><a href="#" title="">Vente</a></li>
+                <li><a href="#" title="Vers la page de location de véhicule">Location</a></li>
+                <li><a href="contact.html" title="Vers la page de contact de ce site">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact">
+        <form id="contact-form" action="merci.html">
+            <h1>Contactez-nous</h1>
+            <div class="corps-formulaire">
+                <div>
+                    <div class="groupe">
+                        <label for="prenom">Prénom*</label>
+                        <input type="text" name="prenom" id="prenom" placeholder="Entrez votre prénom" required>
+                    </div>
+                    <div class="groupe">
+                        <label for="email">Email*</label>
+                        <input type="email" name="email" id="email" placeholder="Entrez une adresse mail valide" required>
+                    </div>
+                </div>
+                <div>
+                    <div class="groupe">
+                        <label for="nom">Nom*</label>
+                        <input type="text" name="nom" id="nom" placeholder="Entrez votre nom" required>
+                    </div>
+                    <div class="groupe">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" name="phone" id="phone" required>
+                    </div>
+                </div>
+                <div class="groupe">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" placeholder="Ecrivez votre message" required></textarea>
+                </div>
+            </div>
+            <div class="btn-form">
+                <button type="submit">Envoyer</button>
+            </div>
+        </form>
+    </main>
+    <!--FOOTER-->
+    <footer>
+        <section class="footer-container">
+            <div>
+                <h4>Club Auto</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur<br>
+                    adipisicing elit. Voluptatum fuga vero <br>
+                    architecto reiciendis, corrupti <br>
+                    repudiandae quam voluptatem numquam.</p>
+            </div>
+            <div>
+                <h4>Horaires d'ouverture</h4>
+                <p>Lundi - Samedi : 09:00-17:00</p>
+                <p>Dimanche et jours fériés : Fermé</p>
+                </ul>
+            </div>
+            <div class="newsletter">
+                <h4>Newsletter</h4>
+                <form action="">
+                    <input type="email" placeholder="Entrez votre adresse mail" required>
+                    <button type="submit" ></button>
+                </form>
+                <p>Inscrivez-vous pour recevoir les dernières offres</p>
+            </div>
+            <div class="social">
+                <h4>Réseaux sociaux</h4>
+                <div class="social-items">
+                    <a href="#"><img src="/images/icons8-facebook-24.png" alt="Facebook"></a></li>
+                    <a href="#"><img src="/images/icons8-facebook-24.png" alt="Twitter"></a></li>
+                    <a href="#"><img src="/images/icons8-facebook-24.png" alt="Instagram"></a></li>
+                    <a href="#"><img src="/images/icons8-facebook-24.png" alt="Google"></a></li>
+                    <a href="#"><img src="/images/icons8-facebook-24.png" alt="Youtube"></a></li>
+                </div>
+            </div>
+        </section>
+        <div class="footer-copyright">
+            <hr>
+            <p>&copy; Club Auto - Tous droits réservés</p>
+        </div>
+    </footer>
+</body>
+</html>
